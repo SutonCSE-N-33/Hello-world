@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.perosn{
+  border: 3px solid crimson;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  display:block;
+  padding: 20px;
+  margin:20px;
+  width:300px;
+  margin-left: 500px;
+  cursor:pointer;
+}
+.perosn:hover{
+  color:orange;
+  background-color: palegreen;
+}
+
+
+.nav-bar ul{
+  list-style: none;
+  padding:0px;
+  margin:0px;
+}
+.nav-bar li{
+display: inline-block;
+margin:20px;
+}
+
+.nav-bar{
+text-decoration: none;
+color:black;
+}
+.nav-bar a:hover, a:active ,a.active{
+  color:orange;
+}
